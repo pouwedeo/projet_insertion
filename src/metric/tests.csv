@@ -1,0 +1,27 @@
+"
+ ============ TESTS STATISTIQUES=============="
+"
+
+--- Test de normalité des résidus ---Shapiro-Wilk Test------","{'Shapiro-Wilk Test: ': np.float64(0.9532022462540858), ' p-value: ': np.float64(3.8184020821011666e-29)}"
+"
+
+----- Test d'homoscédasticité ----","{'Breusch-Pagan Test: ': np.float64(637.4104463767909), ' p-value: ': np.float64(3.2479145930848097e-88)}"
+"
+
+----- Test d'autocorrélation  ----","{'Durbin-Watson Test:: ': np.float64(2.0135036957786454)}"
+"
+
+----- Test de multicolinéarité (VIF)  ----","{'Durbin-Watson Test:: ':                                              Variable       VIF
+0                                               const  0.000000
+1                                       Taux d'emploi  1.132562
+2                            Part des emplois stables  2.470086
+3                      Part des emplois à temps plein  7.574936
+4   Part des emplois de niveau cadre ou profession...  5.986278
+..                                                ...       ...
+75  Disciplines_Sciences, technologies et santé>Sc...  2.234624
+76  Disciplines_Sciences, technologies et santé>Sc...  1.800299
+77  Disciplines_Sciences, technologies et santé>Sc...  2.166123
+78  Disciplines_Sciences, technologies et santé>Sc...  1.619987
+79  Disciplines_Sciences, technologies et santé>Sc...  1.596065
+
+[80 rows x 2 columns]}"
